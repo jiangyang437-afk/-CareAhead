@@ -1,0 +1,6 @@
+node_modules
+dist
+.docx-review
+.research_review
+*.tsbuildinfo
+.DS_Store
