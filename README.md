@@ -1,4 +1,4 @@
-# 诊前一步
+# 诊前一步 CareAhead
 
 围绕“家庭成员 + 一次就医事件”整理诊前信息、用户记录的医生说明和后续行动。本仓库当前是依据《用户流程与信息架构（Codex 执行版 V1.0）》建立的第一阶段前端骨架。
 
@@ -20,7 +20,7 @@ npm run build
 
 ## GitHub Pages
 
-应用使用 `HashRouter` 和 Vite 相对资源路径。执行 `npm run build` 后，将 `dist/` 发布到 GitHub Pages 即可，无需服务器端路由回退。
+应用使用 `HashRouter`，并通过 GitHub Actions 自动构建和发布到 GitHub Pages，无需服务器端路由回退。
 
 ## 当前范围
 
